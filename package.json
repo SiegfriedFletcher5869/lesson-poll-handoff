@@ -1,0 +1,15 @@
+{
+  "name": "lesson-poll-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "start": "node src/lesson_session.ts",
+    "demo": "node src/lesson_session.ts --demo",
+    "test": "node --test src/lesson_vote.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.24.2" },
+  "devDependencies": { "@types/node": "^22.15.0", "typescript": "^5.8.3" }
+}
